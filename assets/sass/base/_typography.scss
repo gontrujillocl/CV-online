@@ -1,0 +1,54 @@
+$light: 300;
+$regular: 400;
+$bold: 700;
+$black: 900;
+
+$font-stack:'Lato', sans-serif;
+$font-titulo: 'Lato', sans-serif;
+
+$xxx-large: 3.9rem;
+$xx-large: 2.6rem;
+$x-large: 1.8rem;
+$large: 1.2rem;
+$medium: 1rem;
+
+h1 {
+    font-family: $font-titulo;
+    font-weight: $black; 
+    font-size: $xx-large;
+    color: $azul;
+}
+
+h2 {
+    font-family: $font-titulo;
+    font-weight: $black; 
+    font-size: $xx-large;
+    color: $azul;
+}
+
+h3 {
+    font-size: $xx-large; 
+    font-family: $font-titulo;
+}
+
+h4 {
+    color: $azul;
+    font-weight: $regular; 
+    font-family: $font-stack;
+    font-size: $large; 
+}
+
+h5 {
+    color: $azul;
+    font-weight: $bold; 
+    font-family: $font-stack;
+    font-size: $large; 
+}
+
+p {
+    color: $azul;
+    font-weight: $light; 
+    font-family: $font-stack;
+    font-size: $large; 
+    padding-top: 3rem;
+}

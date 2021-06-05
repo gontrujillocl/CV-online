@@ -1,0 +1,17 @@
+//Vendors
+@import 'vendors/scss/bootstrap';
+
+//Abstracts
+@import 'abstracts/_variables.scss';
+
+//Base
+@import 'base/_reset.scss';
+@import 'base/_typography.scss';
+
+//Layout
+@import 'layout/_article.scss';
+@import 'layout/_header.scss';
+@import 'layout/_form.scss';
+
+//Pages
+@import 'pages/_home.scss';

@@ -1,0 +1,70 @@
+.sidebar__sticky {
+    position: fixed;
+    padding: 1rem;
+    margin: 0px;
+    text-align: center;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.container__fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-10 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.article__info {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.article__texto {
+    padding: 13rem 2rem;
+}
+
+.article__texto2 {
+    padding: 4rem 2rem;
+}
+
+
+.article__parrafo {
+    padding: 2rem 1rem;
+}
+
+.article__fecha {
+    float: right;
+    color: $azul;
+    font-weight: $regular; 
+    font-family: $font-stack;
+    font-size: $medium; 
+}
+
+.article__subtitulo {
+    color: $azul;
+    font-weight: $regular; 
+    font-family: $font-stack;
+    font-size: $medium; 
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    background-color: $grey;
+    margin-top: 150px;
+}
+
+.fab {
+    color: $azul;
+    padding: 10px 6px;
+}
